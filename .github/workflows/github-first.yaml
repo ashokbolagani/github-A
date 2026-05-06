@@ -1,0 +1,20 @@
+name: my-workflow
+
+on: push
+
+jobs:
+    
+    build-job:
+        
+        runs-on: ubuntu:latest
+        
+        steps:
+          - name: hello display
+            run: echo "Hi ashok"
+
+          - name: my kk
+            run: "echo kk"
+             
+
+
+
