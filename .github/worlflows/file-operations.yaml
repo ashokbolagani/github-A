@@ -1,0 +1,10 @@
+name: file operations
+on: push 
+jobs:
+  build-job:
+    runs-on: ubuntu-latest
+    steps: 
+    - name: display my name
+      run: echo "my name is ashok"
+    - name: display my job
+      run: echo "iam a devops engineer"  
